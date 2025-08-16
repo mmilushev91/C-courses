@@ -6,5 +6,5 @@ int main()
     printf(" ***\n");
     printf("*****\n\n");
     printf("  *\n ***\n*****\n");
-
+    return 0;
 }
