@@ -3,4 +3,5 @@
 int main()
 {
    printf("Marian Milushev\n");
+   return 0;
 }
