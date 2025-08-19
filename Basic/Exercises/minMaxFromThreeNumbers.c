@@ -2,8 +2,8 @@
 
 int main()
 {
-    int num1, num2, num3;
-    int min, max;
+    //7 5 3
+    int num1, num2, num3, max, min;
     
     printf("Enter first number: ");
     scanf("%d", &num1);
@@ -11,31 +11,28 @@ int main()
     printf("Enter second number: ");
     scanf("%d", &num2);
     
-    printf("Enter second number: ");
+    printf("Enter third number: ");
     scanf("%d", &num3);
+     
+    max = num1;
+    min = num2;
     
-    if (num1 > num2 && num1 > num3) {
-        max = num1;
+    if (num2 > max) {
         
-    } else if (num2 > num1 && num2 > num3) {
         max = num2;
-        
-    } else {
+        min = num1;
+    }
+    
+    if (num3 > max) {
         max = num3;
     }
     
-    if (num1 < num2 && num1 < num3) {
-        min = num1;
-        
-    } else if (num2 < num1 && num2 < num3) {
-        min = num2;
-        
-    } else {
+    if (num3 < min) {
         min = num3;
     }
     
-    printf("The max number is: %d\n", max);
-    printf("The min number is: %d\n", min);
+    printf("Max number is: %d\n", max);
+    printf("Min number is: %d\n", min);
     
     return 0;
 }
