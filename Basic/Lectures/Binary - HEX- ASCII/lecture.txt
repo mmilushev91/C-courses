@@ -1,9 +1,21 @@
 Binary, Hex and ASCII
 1.	What is a bit?
-1.1	Base 10 system – with one digit we can represent 10 different values
-1.2	Decimal digit – 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-1.3	Decimal number – consists of decimal digits. By adding a digit we can get another 10 options (0 -9).
-1.4	English letter – A-Z, a-z
-1.5	Bit – a basic unit in computing to represent a value that it can be either 0 or 1.
-1.6	Byte – sequence of 8 bits.
-1.7	Binary number - 
+	1.1	Base 10 system – with one digit we can represent 10 different values
+	1.2	Decimal digit – 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+	1.3	Decimal number – consists of decimal digits. With one digit we can represent 10 		options (0 -9).,
+		Thousands hundreds tens units
+		0-9             0-9          0-9   0-9
+		Example:
+		
+		2463 → 2 * 103  + 4 * 102  + 6 * 101 + 3 * 100 
+		2 4 6 3 – number
+       positions: 3 2 1 0
+		Since decimal numbers are base 10, we can use the 10 with power equal to the digit 		position in order to represent: units, tens, hundreds, thousands and so on.  The 			formula is: weight = base postion
+
+	1.4	English letter – A-Z, a-z
+	1.5	Bit – a basic unit in computing to represent a value that it can be either 0 or 1.
+	1.6	Byte – sequence of 8 bits.
+	1.7	Binary number – a set of bits. Base 2 number.
+
+		1 1 0 1 → 1 * 23  + 1 * 2 2  + 0 * 2 1 + 1 * 20  = 8 + 4 + 0 + 1 = 13
+        postions: 3 2 1 0
